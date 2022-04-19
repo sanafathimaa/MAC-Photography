@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@100;400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+    
+}
+
+
+.landing-text h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.landing-text h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #888888;
+    margin: 0;
+}
+
+
+#landing {
+    background-color: #fff;
+    
+}
+
+@media (min-width: 500px) {
+    #landing {
+     display: flex;
+      height: 100%;
+    }
+  
+    .left-landing {
+      height: 100vh;
+    }
+  
+    .right-landing {
+      height: 100vh;
+    }
+  }
+
+.left-landing {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    width
+    
+}
+
+
+.right-landing {
+    background: url(https://images.unsplash.com/photo-1603046891744-1f76eb10aec7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+@media (min-width: 700px){
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+
+
+.btn {
+    padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+.btn:hover {
+    background: #f4f4f4;
+  }
+#images{
+    width: auto;
+}
+#heading {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    
+}
+
+#heading h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+img {
+    display: block;
+    height: auto;
+    object-fit: fill;
+    width: 100%;
+    margin: 0;
+
+}
+
+.description {
+    background-color: #eee;
+    height: 125px;
+    text-align: center;
+
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
